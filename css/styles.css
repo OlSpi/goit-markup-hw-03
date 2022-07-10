@@ -169,19 +169,22 @@ ul {
   color: var(--text-color);
 }
 
+.size-imglist {
+  width: 1170px;
+  height: 386px;
+}
+
 .headline {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--brand-color);
+  margin-left: 624px;
   margin-bottom: 50px;
   margin-top: 94px;
 }
 .imglist {
-  width: 1170px;
-  height: 386px;
   display: flex;
   gap: 30px;
   margin-left: 215px;
