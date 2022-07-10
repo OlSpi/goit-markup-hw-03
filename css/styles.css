@@ -36,8 +36,10 @@ body {
 }
 
 .boxflex {
+  width: 1600px;
+  height: 80px;
   display: flex;
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 .studio-link {
@@ -55,6 +57,7 @@ body {
 }
 .menu {
   display: flex;
+  gap: 46px;
   margin-left: 93px;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -75,7 +78,6 @@ ul {
   text-decoration: none;
   color: var(--brand-color);
   display: block;
-  padding-right: 46px;
 }
 .link:hover {
   color: var(--link-color);
@@ -108,6 +110,8 @@ ul {
 }
 
 .business {
+  width: 1600px;
+  height: 600px;
   background: #2f303a;
 }
 .headline1 {
@@ -152,10 +156,11 @@ ul {
   margin-bottom: 10px;
 }
 .textflex {
+  width: 1170px;
+  height: 101px;
   display: flex;
   gap: 30px;
   margin-left: 215px;
-  margin-right: 215px;
 }
 .text {
   font-size: 14px;
@@ -175,25 +180,24 @@ ul {
   margin-top: 94px;
 }
 .imglist {
+  width: 1170px;
+  height: 386px;
   display: flex;
-  justify-content: center;
-
+  gap: 30px;
+  margin-left: 215px;
 }
 .img-one {
   background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
   mix-blend-mode: normal;
-  display:block;
-  padding-right: 30px;
+  display: block;
 }
 .img-two {
   background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
   display: block;
-  padding-right: 30px;
 }
 .img-three {
   background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
   display: block;
-  padding-right: 30px;
 }
 
 .headline2 {
@@ -213,19 +217,22 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--brand-color);
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .text-employee {
   padding-bottom: 30px;
 }
 
 .color-employee {
+  width: 1600px;
+  height: 648px;
   background: #f5f4fa;
 }
 .imgflex2 {
   display: flex;
   margin-left: 215px;
+  gap: 30px;
 }
 .employee {
   font-size: 16px;
@@ -233,7 +240,6 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  padding-right: 30px;
 }
 
 .img1 {
@@ -262,10 +268,11 @@ ul {
   margin: 0;
 }
 .footer {
+  width: 1600px;
+  height: 252px;
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-
 }
 
 .studio-link2 {
@@ -279,10 +286,7 @@ ul {
   display: block;
   margin-left: 215px;
   margin-bottom: 20px;
-  
- 
 }
-
 
 .address,
 .mail-tel-color {
@@ -297,7 +301,6 @@ ul {
   padding-bottom: 9px;
 }
 
-
 .address:hover {
   color: var(--link-color);
 }
@@ -306,7 +309,6 @@ ul {
 }
 .mail-tel-color {
   color: rgba(255, 255, 255, 0.6);
-
 }
 .mail-tel-color:hover {
   color: var(--link-color);
@@ -315,9 +317,18 @@ ul {
   color: var(--link-color);
 }
 
+.size-main {
+  width: 1170px;
+  height: 1360px;
+}
+
 .flex-button {
+  width: 572px;
+  height: 54px;
   display: flex;
   justify-content: center;
+  gap: 8px;
+  margin-left: 510px;
   margin-bottom: 34px;
 }
 .button-one {
@@ -337,7 +348,6 @@ ul {
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
-  margin-right: 8px;
 }
 .button-one {
   color: var(--brand-color);
