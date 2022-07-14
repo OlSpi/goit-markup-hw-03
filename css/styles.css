@@ -18,6 +18,9 @@ li {
   margin: 0;
   padding: 0;
 }
+ul {
+  list-style: none;
+}
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--background-color);
@@ -35,11 +38,16 @@ body {
   padding-top: 94px;
 }
 
-.boxflex {
-  width: 1600px;
-  height: 80px;
-  display: flex;
+/*sekcja menu*/
+.header-border {
   border-bottom: 1px solid #ececec;
+}
+
+.boxflex {
+
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .studio-link {
@@ -51,13 +59,15 @@ body {
   color: var(--link-color);
   text-decoration: none;
   display: block;
-  margin-left: 215px;
   margin-top: 24px;
   margin-bottom: 25px;
 }
 .menu {
   display: flex;
   gap: 46px;
+  justify-content: center;
+  width: 261px;
+  height: 16px;
   margin-left: 93px;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -65,9 +75,6 @@ body {
 
 .color-studio {
   color: #000;
-}
-ul {
-  list-style: none;
 }
 
 .link {
@@ -88,8 +95,9 @@ ul {
 
 .menu2 {
   display: flex;
-  margin-left: 325px;
   margin-top: 32px;
+  margin-left: 371px;
+  gap: 50px;
 }
 
 .mail-tel {
@@ -100,7 +108,6 @@ ul {
   text-decoration: none;
   color: var(--text-color);
   display: block;
-  padding-right: 50px;
 }
 .mail-tel:hover {
   color: var(--link-color);
@@ -109,23 +116,24 @@ ul {
   color: var(--link-color);
 }
 
+/*sekcjia zamow usluge*/
 .business {
+  background: #2f303a;
   width: 1600px;
   height: 600px;
-  background: #2f303a;
 }
 .headline1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
   color: var(--background-color);
   padding-top: 200px;
-  padding-left: 452px;
-  padding-right: 452px;
-  padding-bottom: 31px;
+  margin-bottom: 31px;
+  padding-left: 252px;
+  padding-right: 252px;
 }
 .service {
   background: var(--link-color);
@@ -139,12 +147,12 @@ ul {
   cursor: pointer;
   color: var(--background-color);
   padding-top: 10px;
-  padding-right: 41px;
+  padding-right: 42px;
   padding-bottom: 10px;
   padding-left: 42px;
-  margin-bottom: 200px;
-  margin-left: 700px;
+  margin-left: 500px;
 }
+/*Lorem IPsum */
 
 .name-text {
   font-weight: 700;
@@ -156,23 +164,21 @@ ul {
   margin-bottom: 10px;
 }
 .textflex {
-  width: 1170px;
-  height: 101px;
   display: flex;
+  justify-content: center;
   gap: 30px;
-  margin-left: 215px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  width: 270px;
 }
 
-.size-imglist {
-  width: 1170px;
-  height: 386px;
-}
+/* img line */
 
 .headline {
   font-weight: 700;
@@ -180,29 +186,35 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--brand-color);
-  margin-left: 624px;
+  text-align: center;
   margin-bottom: 50px;
-  margin-top: 94px;
+ 
 }
 .imglist {
   display: flex;
-  gap: 30px;
-  margin-left: 215px;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 94px;
 }
+
 .img-one {
   background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
   mix-blend-mode: normal;
   display: block;
+  margin-right: 30px;
 }
 .img-two {
   background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
   display: block;
+  margin-right: 30px;
 }
 .img-three {
   background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
   display: block;
 }
 
+/*nasz zespół*/
 .headline2 {
   font-weight: 700;
   font-size: 36px;
@@ -228,14 +240,15 @@ ul {
 }
 
 .color-employee {
+  background: #f5f4fa;
   width: 1600px;
   height: 648px;
-  background: #f5f4fa;
 }
 .imgflex2 {
   display: flex;
-  margin-left: 215px;
   gap: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .employee {
   font-size: 16px;
@@ -270,6 +283,8 @@ ul {
   padding: 0;
   margin: 0;
 }
+
+/*seccja footer*/
 .footer {
   width: 1600px;
   height: 252px;
@@ -277,7 +292,6 @@ ul {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
 .studio-link2 {
   font-family: "Raleway";
   font-weight: 700;
@@ -287,8 +301,8 @@ ul {
   color: var(--link-color);
   text-decoration: none;
   display: block;
-  margin-left: 215px;
   margin-bottom: 20px;
+  padding-left: 15px;
 }
 
 .address,
@@ -300,8 +314,9 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--background-color);
-  margin-left: 215px;
+
   padding-bottom: 9px;
+  padding-left: 15px;
 }
 
 .address:hover {
@@ -320,18 +335,11 @@ ul {
   color: var(--link-color);
 }
 
-.size-main {
-  width: 1170px;
-  height: 1360px;
-}
-
 .flex-button {
-  width: 572px;
   height: 54px;
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin-left: 510px;
   margin-bottom: 34px;
 }
 .button-one {
@@ -372,12 +380,17 @@ figure {
 }
 .flex-project {
   display: flex;
-  margin-left: 215px;
+  justify-content: center;
+  gap: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .pad-size {
-  padding-right: 30px;
-  padding-bottom: 30px;
+  width: 370px;
+  height: 404px;
+  margin-top: 30px;
 }
+
 .img-portfolio1 {
   background: url(portfolio1.jpg);
   display: block;
