@@ -26,7 +26,6 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   width: 1600px;
-  height: 2349px;
   margin: 0;
 }
 .container {
@@ -44,7 +43,6 @@ body {
 }
 
 .boxflex {
-
   display: flex;
   padding-left: 15px;
   padding-right: 15px;
@@ -67,7 +65,6 @@ body {
   gap: 46px;
   justify-content: center;
   width: 261px;
-  height: 16px;
   margin-left: 93px;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -120,7 +117,6 @@ body {
 .business {
   background: #2f303a;
   width: 1600px;
-  height: 600px;
 }
 .headline1 {
   font-weight: 900;
@@ -130,8 +126,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: var(--background-color);
-  padding-top: 200px;
-  margin-bottom: 31px;
+  padding-top: 106px;
   padding-left: 252px;
   padding-right: 252px;
 }
@@ -150,7 +145,10 @@ body {
   padding-right: 42px;
   padding-bottom: 10px;
   padding-left: 42px;
+  margin-bottom: 106px;
+  margin-top: 31px;
   margin-left: 500px;
+
 }
 /*Lorem IPsum */
 
@@ -188,26 +186,25 @@ body {
   color: var(--brand-color);
   text-align: center;
   margin-bottom: 50px;
+  margin-top: -94px;
  
 }
 .imglist {
   display: flex;
   justify-content: center;
+  gap: 30px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 94px;
 }
 
 .img-one {
   background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
   mix-blend-mode: normal;
   display: block;
-  margin-right: 30px;
 }
 .img-two {
   background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
   display: block;
-  margin-right: 30px;
 }
 .img-three {
   background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
@@ -242,7 +239,6 @@ body {
 .color-employee {
   background: #f5f4fa;
   width: 1600px;
-  height: 648px;
 }
 .imgflex2 {
   display: flex;
@@ -287,7 +283,6 @@ body {
 /*seccja footer*/
 .footer {
   width: 1600px;
-  height: 252px;
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -314,7 +309,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--background-color);
-
   padding-bottom: 9px;
   padding-left: 15px;
 }
@@ -381,6 +375,7 @@ figure {
 .flex-project {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 30px;
   padding-left: 15px;
   padding-right: 15px;
