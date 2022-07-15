@@ -92,9 +92,10 @@ body {
 
 .menu2 {
   display: flex;
+  gap: 50px;
   margin-top: 32px;
   margin-left: 371px;
-  gap: 50px;
+  
 }
 
 .mail-tel {
@@ -382,7 +383,6 @@ figure {
 }
 .pad-size {
   width: 370px;
-  height: 404px;
   margin-top: 30px;
 }
 
