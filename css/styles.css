@@ -25,14 +25,6 @@ ul {
   list-style: none;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  margin: 0;
-}
 ul {
   list-style: none;
 }
@@ -45,6 +37,15 @@ a {
 button {
   font-family: inherit;
 }
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -53,6 +54,10 @@ button {
 .section {
   padding-bottom: 94px;
   padding-top: 94px;
+}
+.flex-container {
+  display: flex;
+  gap: 30px;
 }
 
 /*HEADER*/
@@ -116,21 +121,30 @@ button {
 }
 
 /*HERO*/
-.business {
+.hero-background {
   background: var(--background-second-color);
   text-align: center;
 }
-.business-headline {
+
+.hero-reset-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.hero {
+  padding-top: 200px;
+  padding-left: 252px;
+  padding-right: 252px;
+  padding-bottom: 200px;
+}
+
+.hero-headline {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--background-color);
-
-  padding-top: 106px;
-  padding-left: 252px;
-  padding-right: 252px;
 }
 .button-one {
   font-weight: 700;
@@ -143,21 +157,19 @@ button {
   border-radius: 4px;
   border: 0;
   cursor: pointer;
-
   padding-top: 10px;
   padding-right: 42px;
   padding-bottom: 10px;
   padding-left: 42px;
-  margin-bottom: 106px;
-  margin-top: 31px;
+  margin-top: 30px;
 }
 /*OUR ASPECTS*/
 
-.flex-container {
-  display: flex;
-  gap: 30px;
+.aspects-reset-padding {
+  padding-bottom: 0;
 }
-.title-text {
+
+.aspects-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -165,9 +177,10 @@ button {
   color: var(--brand-color);
   margin-bottom: 10px;
 }
-.text {
+.aspects-text {
   line-height: 1.7;
   width: 270px;
+
 }
 /*OUR WORKS*/
 
@@ -177,15 +190,21 @@ button {
   line-height: 1.2;
   text-align: center;
   color: var(--brand-color);
-
-  padding-bottom: 50px;
-  margin-top: -94px;
+  margin-bottom: 50px;
 }
 
 /*OUR EMPLOYEES*/
 
-.background-employee {
+.employee-background {
   background: #f5f4fa;
+}
+
+.employee-list-item {
+  text-align: center;
+  background: var(--background-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .title-third {
   font-weight: 500;
@@ -195,15 +214,7 @@ button {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-
-.list-employee-item {
-  text-align: center;
-  background: var(--background-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-.list-employee-text {
+.employee-list-text {
   font-size: 16px;
   line-height: 1.19;
   padding-bottom: 30px;
@@ -234,6 +245,9 @@ button {
   color: var(--background-color);
   text-decoration: none;
   margin-bottom: 9px;
+}
+.footer-reset-margin {
+  margin-bottom: 0;
 }
 .footer-mail-tel {
   color: rgba(255, 255, 255, 0.6);
@@ -284,8 +298,16 @@ button {
 }
 .card-item {
   background: var(--background-color);
+  flex-basis: calc((100% - 63px) / 3);
+}
+.card-item img {
+  display: block;
+}
+.card-discription {
   border: 1px solid #eeeeee;
-  width: 370px;
+  padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .card-title {
   font-weight: 700;
@@ -293,14 +315,10 @@ button {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--brand-color);
-  padding-top: 20px;
-  padding-bottom: 4px;
-  padding-left: 24px;
+  margin-bottom: 4px;
 }
 .card-text {
   font-size: 16px;
   line-height: 1.9;
   color: var(--text-color);
-  padding-bottom: 20px;
-  padding-left: 24px;
 }
