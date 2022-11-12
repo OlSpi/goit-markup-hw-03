@@ -133,8 +133,6 @@ body {
 
 .hero {
   padding-top: 200px;
-  padding-left: 252px;
-  padding-right: 252px;
   padding-bottom: 200px;
 }
 
@@ -145,6 +143,9 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--background-color);
+  max-width: 696px;
+  margin: auto;
+
 }
 .button-one {
   font-weight: 700;
@@ -180,7 +181,6 @@ body {
 .aspects-text {
   line-height: 1.7;
   width: 270px;
-
 }
 /*OUR WORKS*/
 
@@ -199,6 +199,11 @@ body {
   background: #f5f4fa;
 }
 
+.employee-discription {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .employee-list-item {
   text-align: center;
   background: var(--background-color);
@@ -211,13 +216,11 @@ body {
   font-size: 16px;
   line-height: 1.19;
   color: var(--brand-color);
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .employee-list-text {
   font-size: 16px;
   line-height: 1.19;
-  padding-bottom: 30px;
 }
 
 /*FOOTER*/
